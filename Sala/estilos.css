@@ -1,0 +1,206 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body
+{
+  display: block;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+  height: 100%;
+}
+
+header
+{
+  background: #18191A;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+h1
+{
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+img
+{
+  border-radius: 100%;
+  border-style: outset;
+  border-color: black grey grey Black;
+  border-width:5px;
+  width: 250px;
+  height: 230px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.bio
+
+{
+  text-align: justify;
+  width: 50%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  color: white;
+
+}
+
+p
+{
+  background: #18191A;
+  line-height: 20px;
+  border-left: inset 3px;
+  border-right: inset 3px;
+  border-color: black;
+}
+
+p:hover
+{
+  background: Black;
+  color: white;
+}
+
+
+.Canal
+{
+  background: black;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+.video
+{
+  margin-top: 100px;
+  display: flex;
+  background: #C9CCD3;
+ background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: lighten;;
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+iframe
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  border-width: 20px;
+  border-radius: 10px;
+  border-left: Black;
+  border-right: white;
+
+}
+
+.Desc
+{
+  text-align: center;
+  width: 50%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  color: white;
+}
+
+.Links
+{
+  margin-top: 25%;
+
+}
+
+h3
+{
+  background: black;
+  width: 15%;
+  color: white;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.art
+{
+  width: 50%;
+  height: 300px;
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  text-align: center;
+  display: flex;
+  border-radius: 5px;
+
+}
+
+a
+{
+ margin-top: 3%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ position: relative;
+ font-family: 'Roboto';
+ font-size: 25px;
+ color: black;
+
+}
+
+H4
+{
+  margin-top: 20px;
+  color: black;
+  font-family: "Aldrich";
+  font-size: 20px;
+  text-align: center;
+  display: block;
+}
+
+h5
+{
+margin-top: 30px;
+font-family: "monospace";
+display: block;
+font-size: 20px;
+background: #18191A;
+height: 20px;
+color: white;
+}

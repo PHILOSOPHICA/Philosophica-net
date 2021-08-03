@@ -1,0 +1,197 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body
+{
+  display: block;
+  background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+  background-size: cover;
+  background-attachment: fixed;
+  width:100%;
+  height: 100%;
+}
+
+header
+{
+  background: #18191A;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+
+h1
+{
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 30px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+img
+{
+  border-radius: 100%;
+  border-style: outset;
+  border-color: white grey grey white;
+  border-width:5px;
+  width: 30vh;
+
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.bio
+{
+  text-align: justify;
+  width: 50%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  color: white;
+
+}
+
+p
+{
+  background: #18191A;
+  line-height: 20px;
+  border-left: inset 3px;
+  border-right: inset 3px;
+  border-color: black;
+}
+
+p:hover
+{
+  background: Black;
+  color: white;
+}
+
+
+.Canal
+{
+  background: black;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+
+.video
+{
+  margin-top: 70px;
+  display: flex;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  width: 40%;
+  height: 700px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  border-style: dotted;
+  border-color: white;
+
+
+}
+
+.In
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+
+.Desc
+{
+  text-align: justify;
+  width: 50%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  color: white;
+}
+
+iframe
+{
+  margin-top: 60px;
+  border-radius: 20px;
+
+}
+
+.Video
+{
+  text-align: center;
+
+}
+
+.Links
+{
+  margin-top: 20%;
+
+}
+
+h3
+{
+  background: black;
+  width: 15%;
+  color: white;
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.art
+{
+  width: 40%;
+  height: 250px;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  text-align: center;
+  border-radius: 5px;
+
+
+}
+
+a
+{
+ margin-top: 5%;
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ position: relative;
+ font-family: 'Roboto';
+ font-size: 25px;
+ color: black;
+ display: block;
+}
